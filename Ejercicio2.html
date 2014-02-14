@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>FORMULARIO</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Altas</a></li>
+            <li><a href="#page3">Consultas</a></li>
+			<li><a href="#page4">Bajas</a></li>
+            <li><a href="#page5">Modificaciones</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Page Two</h1>
+	</div>
+	<div data-role="content">	
+		<p>Nombre: <input type="number"> </p> <br/>
+        <p>Apellido Paterno: <input type="number"> </p> <br/>
+        <p>Apellido Materno: <input type="number"> </p> <br/>
+        <p>No Control: <input type="number"> </p> <br/>	
+	<p>correo: <input type="email" placeholder="correo@ejemplo.com"> </p> <br/>
+    Carrera:
+	<select id="opCarreras" name="opCarreras"> 
+	<option Select value="ISC">ISC</option> 
+	<option Select value="IIA">IIA</option> 
+	<option Select value="II">II</option> 
+	<option Select value="IGE">IGE</option> 
+	<option Select value="IE">IE</option>
+	</select>
+    </div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Page Three</h1>
+	</div>
+	<div data-role="content">	
+	<p>No Control: <input type="number"> </p> <br/>	
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Page Four</h1>
+	</div>
+	<div data-role="content">	
+		<p>No Control: <input type="number"> </p> <br/>		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>Page Four</h1>
+	</div>
+	<div data-role="content">	
+		Content	<p>No Control: <input type="number"> </p> <br/>iv>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+
+</body>
+</html>
